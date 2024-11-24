@@ -1,0 +1,30 @@
+name: adminsuper
+description: A new Flutter project
+
+publish_to: 'none' # Remove this line if you're publishing the package
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"  # Make sure the SDK version is compatible with null safety (>= 2.12.0)
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_swiper_plus: ^2.0.4  # This is compatible with Dart SDK >=2.12.0
+  cupertino_icons: ^1.0.8  # Updated to the null-safe version
+  supabase_flutter: ^1.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:  # Use `assets` instead of `AssetImage`
+    - assets/image/backroundplsp.jpg.jpg # Make sure this path matches exactly with your file
+    - assets/image/blackboard.png
+    - assets/image/profile.png
+    - assets/image/good-mark.png
+    - assets/image/audience.png
+    - assets/image/plsp.png
+    - assets/image/ccst.png
